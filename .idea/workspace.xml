@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="783e09ed-3da4-4be3-9380-d94b6d77be2b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../Go" />
+  <component name="ProjectId" id="1hrsvB7UDkja3hsz8gZ1RIFvG3X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build Proinit0">
+    <configuration name="go build Proinit0" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Proinit0" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="Proinit0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Proinit0" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build Proinit0" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="74" key="#go_build_main.go" timestamp="1600781452924">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="623" y="74" key="#go_build_main.go/0.0.1536.864@0.0.1536.864" timestamp="1600781452924" />
+    <state x="688" y="163" key="FileChooserDialogImpl" timestamp="1600781349221">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="688" y="163" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600781349221" />
+    <state width="1198" height="139" key="GridCell.Tab.0.bottom" timestamp="1600781818254">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1198" height="139" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600781818254" />
+    <state width="1198" height="139" key="GridCell.Tab.0.center" timestamp="1600781818254">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1198" height="139" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600781818254" />
+    <state width="1198" height="139" key="GridCell.Tab.0.left" timestamp="1600781818254">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1198" height="139" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600781818254" />
+    <state width="1198" height="139" key="GridCell.Tab.0.right" timestamp="1600781818254">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1198" height="139" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600781818254" />
+  </component>
+</project>
