@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="783e09ed-3da4-4be3-9380-d94b6d77be2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
   </component>
-  <component name="RunManager" selected="Go Build.go build Proinit0">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build Proinit0" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Proinit0" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -37,14 +40,25 @@
       <package value="Proinit0" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Proinit0" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="Proinit0" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Proinit0" />
+      <working_directory value="$PROJECT_DIR$/" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build Proinit0" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
@@ -62,21 +76,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="688" y="163" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600781349221" />
-    <state width="1198" height="139" key="GridCell.Tab.0.bottom" timestamp="1600781856844">
+    <state width="1198" height="99" key="GridCell.Tab.0.bottom" timestamp="1600957705425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="139" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600781856844" />
-    <state width="1198" height="139" key="GridCell.Tab.0.center" timestamp="1600781856844">
+    <state width="1198" height="99" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600957705425" />
+    <state width="1198" height="99" key="GridCell.Tab.0.center" timestamp="1600957705425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="139" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600781856844" />
-    <state width="1198" height="139" key="GridCell.Tab.0.left" timestamp="1600781856844">
+    <state width="1198" height="99" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600957705425" />
+    <state width="1198" height="99" key="GridCell.Tab.0.left" timestamp="1600957705425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="139" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600781856844" />
-    <state width="1198" height="139" key="GridCell.Tab.0.right" timestamp="1600781856844">
+    <state width="1198" height="99" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600957705425" />
+    <state width="1198" height="99" key="GridCell.Tab.0.right" timestamp="1600957705425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="139" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600781856844" />
+    <state width="1198" height="99" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600957705425" />
   </component>
 </project>
