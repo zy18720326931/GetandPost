@@ -1,7 +1,11 @@
 package controllers
 //config配置
 import (
+	"Proinit0/Porseron"
+	"encoding/json"
+	"fmt"
 	"github.com/astaxie/beego"
+	"io/ioutil"
 )
 
 type MainController struct {
@@ -24,13 +28,20 @@ func (c *MainController) Get() {
 
 
 func (c *MainController)Post(){
-	UserName:=c.Ctx.Request.FormValue("user")
-	UserAge:=c.Ctx.Request.FormValue("age")
-    Uaersex:=c.Ctx.Request.FormValue("sex")
-	if UserName!="zy"||UserAge !="20"||Uaersex !="main" {
-		c.Ctx.WriteString("hellow!!")
+	var poser Porseron.Poser
+	strbyte , err:= ioutil.ReadAll(c.Ctx.Request.Body)
+	if err !=nil{
+		fmt.Println("解析错误")
 		return
 	}
-	c.Ctx.WriteString("chenggong")
+	err2:=json.Unmarshal(strbyte,&poser)
+	if err2 !=nil{
+		fmt.Println("传输错误")
+		return
+	}
+	fmt.Println(poser.Name)
+	fmt.Println(poser.Sex)
+	fmt.Println(poser.Age)
+	c.Ctx.WriteString("成功")
 }
 //postman :用于模拟http各种类型请求的一个工具，浏览器
