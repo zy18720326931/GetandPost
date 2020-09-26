@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="783e09ed-3da4-4be3-9380-d94b6d77be2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Porseron/requse.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Porseron/requse.go" beforeDir="false" afterPath="$PROJECT_DIR$/Porseron/requse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/default.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build Proinit0" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -76,29 +77,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="946" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600998407718">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="946" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1600998407718" />
     <state x="623" y="74" key="#go_build_main.go" timestamp="1600781452924">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="623" y="74" key="#go_build_main.go/0.0.1536.864@0.0.1536.864" timestamp="1600781452924" />
-    <state x="688" y="163" key="FileChooserDialogImpl" timestamp="1600781349221">
+    <state x="688" y="163" key="FileChooserDialogImpl" timestamp="1601128164044">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="688" y="163" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600781349221" />
-    <state width="1198" height="99" key="GridCell.Tab.0.bottom" timestamp="1600964161773">
+    <state x="688" y="163" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601128164044" />
+    <state width="1396" height="198" key="GridCell.Tab.0.bottom" timestamp="1601129751093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="99" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600964161773" />
-    <state width="1198" height="99" key="GridCell.Tab.0.center" timestamp="1600964161771">
+    <state width="1396" height="198" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601129751093" />
+    <state width="1396" height="198" key="GridCell.Tab.0.center" timestamp="1601129751093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="99" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600964161771" />
-    <state width="1198" height="99" key="GridCell.Tab.0.left" timestamp="1600964161771">
+    <state width="1396" height="198" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601129751093" />
+    <state width="1396" height="198" key="GridCell.Tab.0.left" timestamp="1601129751093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="99" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600964161771" />
-    <state width="1198" height="99" key="GridCell.Tab.0.right" timestamp="1600964161773">
+    <state width="1396" height="198" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601129751093" />
+    <state width="1396" height="198" key="GridCell.Tab.0.right" timestamp="1601129751093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1198" height="99" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600964161773" />
+    <state width="1396" height="198" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601129751093" />
   </component>
 </project>

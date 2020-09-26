@@ -2,6 +2,7 @@ package controllers
 //config配置
 import (
 	"Proinit0/Porseron"
+	"Proinit0/db_mysql"
 	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego"
@@ -39,6 +40,14 @@ func (c *MainController)Post(){
 		fmt.Println("传输错误")
 		return
 	}
+
+	err3,id:=db_mysql.Set(poser)
+	if err3 != nil {
+		fmt.Println(err.Error())
+		fmt.Println("未插入")
+		return
+	}
+    fmt.Println(id)
 	fmt.Println(poser.Name)
 	fmt.Println(poser.Sex)
 	fmt.Println(poser.Age)
