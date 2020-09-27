@@ -29,7 +29,7 @@ func (c *MainController) Get() {
 
 
 func (c *MainController)Post(){
-	var poser Porseron.Poser
+	var poser Porseron.Poser1
 	strbyte , err:= ioutil.ReadAll(c.Ctx.Request.Body)
 	if err !=nil{
 		fmt.Println("解析错误")

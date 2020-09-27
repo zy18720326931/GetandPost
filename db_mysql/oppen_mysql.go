@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func Set(	pose  Porseron.Poser)(error,int64)  {
+func Set(	pose  Porseron.Poser1)(error,int64)  {
 	 result,err:=DB.Exec("insert  into  Userdata(id,username,brithdy,adress,age,sex)values (?,?,?,?,?,?)",1,pose.Name,pose.Borthdy,pose.Adress,pose.Age,pose.Sex)
 	if  err !=nil {
 		fmt.Println(err.Error())

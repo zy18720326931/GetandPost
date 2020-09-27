@@ -1,6 +1,6 @@
 package Porseron
 
-type Poser struct {
+type Poser1 struct {
 	Name string
 	Age  string
 	Borthdy string
